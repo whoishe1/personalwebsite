@@ -1,4 +1,4 @@
-import { Data } from "../pages/static/data";
+import { Data } from "../data/ProjectData";
 
 export const MainBody = () => {
     const data = Data;
