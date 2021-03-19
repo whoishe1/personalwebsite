@@ -22,6 +22,7 @@ export const MainBody = () => {
                     <div className="grid grid-cols-none gap-4 mt-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                         {data.map((item) => (
                             <a
+                                key={item.id}
                                 href={item.url}
                                 className="inline-block w-full text-gray-800 border border-gray-700 rounded-lg outline-none bg-next hover:border-gray-400 md:w-60 focus:ring focus:ring-gray-300"
                                 target="_blank"
