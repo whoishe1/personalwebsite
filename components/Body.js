@@ -42,7 +42,7 @@ export const MainBody = () => {
                 <div className="max-w-screen-lg mx-auto px-5 lg:px-0">
                     <h1 className="text-3xl font-bold pb-6 pt-6">Contact</h1>
                     <h2 className="text-xl text-gray-600">
-                        If you have any questions of need any questions feel free to contact me.
+                        If you have any questions feel free to contact me.
                     </h2>
                     <span className="inline-block pt-2 text-xl text-green-600 font-bold hover:text-green-800 hover:underline">
                         kojordan9112@gmail.com
